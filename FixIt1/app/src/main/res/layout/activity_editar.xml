@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Editar usuario"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:layout_margin="20dp"
+        android:id="@+id/EditNombre"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        android:layout_margin="20dp"
+        android:id="@+id/EditApellido"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Teléfono"
+        android:inputType="textPhonetic"
+        android:layout_margin="20dp"
+        android:id="@+id/EditTelefono"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        android:enabled="false"
+        android:layout_margin="20dp"
+        android:id="@+id/EditCorreo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/EditPass"/>
+
+
+    <Button
+        android:id="@+id/btnEditActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#C5E1A5"
+        android:text="Actualizar"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnEditCancelar"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#E65100"
+        android:text="Cancelar"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+</LinearLayout>
+
+
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/usersiete"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Usuario"
+        android:inputType="textEmailAddress"
+        android:layout_margin="20dp"
+        android:id="@+id/User"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="Password"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/Pass"/>
+<Button
+    android:id="@+id/btnLoginIngresar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:layout_weight="1"
+    android:background="#a3c738"
+    android:text="Ingresar"
+    android:textColor="#ffffff"
+    android:textSize="25dp"
+    android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnLoginRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:background="#827717"
+        android:text="Registrar"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+
+
